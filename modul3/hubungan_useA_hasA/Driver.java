@@ -1,0 +1,15 @@
+package hubungan_useA_hasA;
+
+public class Driver {
+
+  private Car car;
+
+  public Driver() {
+    System.out.println("Driver is created.");
+    car = new Car(); 
+
+  public void driving() {
+    System.out.println("Driver is driving.");
+    System.out.println("Using a car that has " + car.numWheel + " wheels.");
+  }
+}
