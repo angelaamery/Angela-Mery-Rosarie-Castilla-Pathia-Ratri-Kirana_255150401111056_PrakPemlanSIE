@@ -17,12 +17,9 @@ public class AmongUsGame {
 
         jacky = (Character) new Impostor(jacky);
 
-        ((Impostor) jacky).kill(cindy);
-
         jacky = new NonPlayableChar(jacky);
 
-        if (david instanceof Crew) {
-            Crew crew = (Crew) david;
+        if (david instanceof Crew crew) {
             crew.callMeeting();
         }
 
