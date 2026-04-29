@@ -1,3 +1,5 @@
+package modul8
+
 class NodeString {
   String data; // int jadi String
   NodeString left, right;
