@@ -1,3 +1,5 @@
+package modul8
+
 public class BinaryTreeString {
 
   NodeString root;

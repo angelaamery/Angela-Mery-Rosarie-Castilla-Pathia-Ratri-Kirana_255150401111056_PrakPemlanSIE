@@ -1,3 +1,5 @@
+package modul8
+
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -76,13 +78,22 @@ public class BinaryTree {
   public static void main(String[] args) {
     BinaryTree tree = new BinaryTree();
 
+    /*
+    Hard Code karena data selalu berubah secara random (agar sesuai output awal)
     int[] data = {52, 14, 62, 12, 40, 69, 39, 43, 33, 55};
 
     // INPUT DATA
     for (int nilai : data) {
       System.out.printf("Nilai %d dimasukkan.\n", nilai);
       tree.add(nilai);
+    }*/
+
+    for (int i = 0; i < 10; i++) {
+      int nilai = (int) (Math.random() * 100);
+      System.out.printf("Nilai %d dimasukkan.\n", nilai);
+      tree.add(nilai);
     }
+
     System.out.println();
 
     System.out.print("Preorder Traversal: ");
